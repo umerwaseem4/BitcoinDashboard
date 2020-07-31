@@ -1,0 +1,15 @@
+.contact {
+  .main__contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("../Images/contact.jpg");
+    min-height: 85vh;
+    background-position: center;
+    background-size: cover;
+  }
+  .ashdj {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

@@ -12,9 +12,6 @@ const Navbar = () => {
         handleShow(true);
       } else handleShow(false);
     });
-    return () => {
-      window.removeEventListener("scroll");
-    };
   }, []);
   return (
     <div>
@@ -52,7 +49,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li class="nav-item ">
-                <Link class={`${show || color} nav-link`} to="/">
+                <Link class={`${show || color} nav-link`} to="/contact">
                   Contact
                 </Link>
               </li>
